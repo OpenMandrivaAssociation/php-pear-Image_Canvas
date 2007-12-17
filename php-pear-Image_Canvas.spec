@@ -18,7 +18,6 @@ Requires:       php-pear-Image_Color >= 1.0.0
 Requires:       php-pear
 BuildArch:      noarch
 BuildRequires:  dos2unix
-BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A package providing a common interface to image drawing,
