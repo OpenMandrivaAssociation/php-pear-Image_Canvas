@@ -6,7 +6,7 @@
 Summary:        %{_pearname} - common interface to image drawing
 Name:           php-pear-%{_pearname}
 Version:        0.3.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 License:        PHP License
 Group:          Development/PHP
 Source0:        http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -18,7 +18,7 @@ Requires:       php-pear-Image_Color >= 1.0.0
 Requires:       php-pear
 BuildArch:      noarch
 BuildRequires:  dos2unix
-BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 A package providing a common interface to image drawing,
