@@ -4,7 +4,7 @@
 
 Name:           php-pear-%{upstream_name}
 Version:        0.3.1
-Release:        9
+Release:        10
 Summary:        Common interface to image drawing
 License:        PHP License
 Group:          Development/PHP
