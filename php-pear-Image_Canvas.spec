@@ -8,7 +8,7 @@ Release:        10
 Summary:        Common interface to image drawing
 License:        PHP License
 Group:          Development/PHP
-URL:            http://pear.php.net/package/Image_Canvas/
+URL:            https://pear.php.net/package/Image_Canvas/
 Source0:        http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
